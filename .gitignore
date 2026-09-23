@@ -55,3 +55,6 @@ Desktop.ini
 *.tmp
 *.log
 *.bak
+
+# ===== 发布打包产物 =====
+dist/
