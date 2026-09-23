@@ -1,0 +1,57 @@
+# ===== Qt / qmake =====
+# 构建输出目录
+Build/
+build/
+
+# qmake 生成的 Makefile 与缓存
+Makefile*
+*.qmake.stash
+
+# qmake 生成（Windows 资源文件 + MinGW 链接脚本）
+*_resource.rc
+object_script.*
+
+# Qt Creator 用户配置（含本机路径，勿提交）
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# Qt 生成代码（moc / uic / rcc）
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# ===== 编译产物 =====
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+*.so
+*.dylib
+
+# MSVC / 调试符号
+*.pdb
+*.ilk
+*.idb
+*.res
+*.exp
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*~
+.clang-format.bak
+
+# ===== 系统文件 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 临时 / 日志 =====
+*.tmp
+*.log
+*.bak
